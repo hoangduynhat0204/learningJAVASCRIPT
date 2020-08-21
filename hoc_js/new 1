@@ -1,0 +1,29 @@
+Learning JS:
+
+getElementById('')
+
+Phân biệt hoa thường
+
+i++ thứ tự ưu tiên nhỏ hơn phép gán
+++i thứ tự ưu tiên lớn hơn phép gán
+
+FUNCTION:
+	function functionName(){
+		function body
+	}
+
+Mảng: thêm vào cuối: push()
+	  thêm vào đầu: unshift()
+	  xóa phần tử cuối: pop()
+	  xóa phần tử đầu: shift()
+	  thêm hoặc xóa một hoặc 1 số phần tử từ 1 vị trị nào đó: splice
+	  nối mảng: concat
+	  trích xuất mảng: slice(start, to);
+	  nối các phần tử của mảng: join(delim)
+	  trả về ds các phần tử của mảng kiểu string: toString
+	  sắp xếp theo alphabet: sort() / reverse()
+	  
+	  
+	  
+bất đồng bộ
+callback

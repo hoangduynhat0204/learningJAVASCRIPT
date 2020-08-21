@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 6: Variable</title>
+</head>
+<body>
+	<h3>JS FUNCTION</h3>
+	<p id="sum"></p>
+	<script type="text/javascript">
+		//var name = "Hoang Duy Nhat";
+		//var age = 22;
+		//var isTrue = true;
+		//var pi = 3.14;
+
+		//function test(){
+		//	document.getElementById('demo').innerHTML = name;
+		//}
+		var a = 10;
+		var b = 20;
+		var sum = sumOfAAndB(a, b);
+
+		function sumOfAAndB(a, b){
+			var x = a + b;
+			return x;
+		}
+
+		function sumOfArray(start, end){
+			var sum = 0;
+			for (var i = start; i <= end; i++) {
+				sum = sum + i;
+			}
+			return sum;
+		}
+
+		function sayHello(name){
+			return "Hello " + name;
+		}
+
+		document.getElementById("sum").innerHTML = sayHello("Nhat");
+	</script>
+	<!-- <button onclick="test()">Click here</button>
+	<p id="demo"></p> -->
+	
+</body>
+</html>
